@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+venv/
+.venv/
+
+# PyInstaller / Inno Setup build outputs
+installer_output/
+
+# TigTag local user data (per-machine config, never committed)
+.tigtag/
+
+# Generated output files (Excel outputs land next to source files, not in-repo,
+# but ignore any that end up here during local testing)
+*_processed.xlsx
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
